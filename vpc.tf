@@ -1,5 +1,5 @@
 module "vpc" {
-  source                        = "farrukh90/vpc/aws"
+  source                        = "tutac/terraform-setenv-vpc"
   region                        = "${var.region}"
   vpc_cidr                      = "${var.vpc_cidr}"
   public_cidr1                  = "${var.public_cidr1}"
